@@ -1,0 +1,120 @@
+ {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color: #e4d572;;
+     color: #080505;
+ }
+ 
+ header {
+        background:rgb(26, 21, 58);
+        color: rgb(251, 250, 250);
+        padding: 0px;
+        text-align: center;
+        display: contents;
+    }
+    
+ 
+ .logo h1 {
+     margin: 20;
+    color:rgb(18, 56, 10);
+    text-align: left;
+    font-family: cursive;
+ }
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+ nav ul {
+     list-style-type: none;
+     display:inline-flex;
+     text-align:center;
+ }
+ 
+ nav ul li {
+     margin: 25px;
+ }
+ 
+ nav ul li a {
+     color: rgb(16, 11, 11);
+     text-decoration: none;
+     font-weight: bold;
+     text-size-adjust:inherit;
+     font-size: x-large;
+ }
+ 
+ main {
+     padding: 20px;
+ }
+ 
+ .hero {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+ 
+ .hero h2 {
+     font-size: 2.5em;
+     margin-bottom: 10px;
+ }
+ 
+ .hero p {
+     font-size: 1.2em;
+     margin-bottom: 20px;
+ }
+ 
+ .shop-now {
+     padding: 10px 20px;
+     background-color: rgb(10, 14, 72);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-size: 1.2em;
+     cursor: pointer;
+ }
+ 
+ .featured-categories {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     gap: 100px;
+ }
+ 
+ .category {
+     background-color: white;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     transition: transform 0.2s;
+ }
+ 
+ .category:hover {
+     transform: scale(1.05);
+ }
+ 
+ .category img {
+     width: 100%;
+     height: 150px;
+     object-fit: cover;
+ }
+ 
+ .category h4 {
+     padding: 50px 0;
+     font-size: 1.2em;
+ }
+ 
+ 
+ footer {
+     text-align: center;
+     padding: 35px;
+     background-color: #050c0d;
+     color: rgb(252, 251, 251);
+     font-size: larger;
+     position: relative;
+     bottom: 0;
+     width: 98%;
+ }

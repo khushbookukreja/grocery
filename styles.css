@@ -1,0 +1,286 @@
+
+/* styles.css */
+body {
+     margin: 0;
+     font-family: 'Arial', sans-serif;
+ }
+ body:has(option[value="dark"]: checked){
+    --background: black; 
+    --text-color: white;
+ }
+ header {
+     background-color: #333;
+     color: #fff;
+     padding: 15px 20px;
+ }
+ 
+ .navbar {
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .logo {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .logo p {
+     margin: 0;
+     font-size: 1.2em;
+     color: rgb(182, 245, 245);
+ }
+ 
+ nav ul {
+     list-style: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ nav li {
+     margin-right: 20px;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+     font-size: 1.2em;
+     transition: color 0.3s ease-in-out;
+ }
+ 
+ nav a:hover {
+     color:black;
+ }
+ 
+ .search {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .search input {
+     padding: 8px;
+     margin-right: 10px;
+     border: none;
+     border-radius: 5px;
+ }
+ 
+ .search button {
+     background-color: #ffd700;
+     color: #333;
+     border: none;
+     padding: 8px 15px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease-in-out;
+ }
+ 
+ .search button:hover {
+     background-color: #ffc107;
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .navbar {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+ 
+     nav {
+         margin-top: 10px;
+     }
+ 
+     nav ul {
+         flex-direction: column;
+     }
+ 
+     nav li {
+         margin-right: 0;
+         margin-bottom: 10px;
+     }
+ 
+     .search {
+         margin-top: 10px;
+     }
+ }
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#offers {
+    background-color: rgb(190, 237, 237);
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.offer-card {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+}
+
+#recipes {
+    text-align: center;
+}
+ 
+.recipes {
+    background-color: #264653;
+    color: white;
+    shape-rendering: ;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 18%;
+    cursor: pointer;
+    shape-rendering:geometricPrecision ;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+ 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.cart-container {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
